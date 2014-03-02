@@ -3,9 +3,11 @@ ruby '2.1.1'
 
 gem 'rails', '4.0.3'
 gem 'pg'
+gem 'guard-rspec'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'growl'
 end
 
 group :test do
