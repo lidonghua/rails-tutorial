@@ -16,3 +16,6 @@
 /tmp
 
 /.secret
+
+# Ignore auto-generated public assets
+/public/assets

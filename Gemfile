@@ -6,6 +6,10 @@ gem 'bootstrap-sass'
 gem 'pg'
 gem 'guard-rspec'
 
+group :development do
+  gem 'coffee-rails-source-maps'
+  gem 'sass-rails-source-maps'
+end
 group :development, :test do
   gem 'rspec-rails'
   gem 'growl'
