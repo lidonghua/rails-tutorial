@@ -4,7 +4,7 @@ ruby '2.1.1'
 gem 'rails', '4.0.3'
 gem 'bootstrap-sass'
 gem 'pg'
-gem 'guard-rspec'
+gem 'bcrypt'
 
 group :development do
   gem 'coffee-rails-source-maps'
@@ -16,6 +16,7 @@ group :development, :test do
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'childprocess'
+  gem 'guard-rspec'
 end
 
 group :test do
