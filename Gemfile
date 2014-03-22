@@ -4,7 +4,7 @@ ruby '2.1.1'
 gem 'rails', '4.0.3'
 gem 'bootstrap-sass'
 gem 'pg'
-gem 'bcrypt'
+gem 'bcrypt-ruby'
 
 group :development do
   gem 'coffee-rails-source-maps'
