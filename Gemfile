@@ -5,6 +5,7 @@ gem 'rails', '4.0.3'
 gem 'bootstrap-sass'
 gem 'pg'
 gem 'bcrypt-ruby'
+gem 'faker'
 
 group :development do
   gem 'coffee-rails-source-maps'

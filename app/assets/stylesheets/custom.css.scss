@@ -189,5 +189,9 @@ input {
     &:last-child {
       border-bottom: 1px solid $gray-light;
     }
+    img {
+      height: 52px;
+      width: 52px;
+    }
   }
 }
