@@ -15,7 +15,6 @@ describe "User pages" do
     it { should have_content('All users') }
 
     describe "pagination" do
-
       before(:all) { 30.times { FactoryGirl.create(:user) } }
       after(:all) { User.delete_all }
 
@@ -75,7 +74,7 @@ describe "User pages" do
         fill_in "Name", with: "Example User"
         fill_in "Email", with: "user@example.com"
         fill_in "Password", with: "foobar"
-        fill_in "Confirmation", with: "foobar"
+        fill_in "Confirm Password", with: "foobar"
       end
 
       it "should create a user" do
