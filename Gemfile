@@ -8,6 +8,7 @@ gem 'pg'
 gem 'bcrypt-ruby'
 gem 'faker'
 gem 'kaminari'
+gem 'haml'
 
 group :development do
   gem 'coffee-rails-source-maps'

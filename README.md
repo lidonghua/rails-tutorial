@@ -7,6 +7,7 @@ It's just an exercise while reading the great Rails Tutorial.
 - Use latest gems when possible.
 - Use bootstrap 3 to get a more modern-look.
 - Use `kaminari` for pagination instead of `will_paginate`.
+- Use HAML instead of ERb for conciseness.
 
 ## Original information
 
